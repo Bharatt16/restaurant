@@ -1,0 +1,46 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family : monospace;
+}
+
+header {
+    height : 125px;
+    border : 1px solid black;
+    padding : 10px;
+    background-color: crimson;
+}
+
+nav{
+    display : flex ;
+    justify-content:space-between;
+    align-items : center;
+    padding : 25px 50px;
+}
+
+.OdinLogo{
+    height: 50px;
+}
+
+.logo{
+    display : flex;
+    align-items : center;
+}
+.buttons{
+    display : flex;
+    gap : 100px;
+}
+.buttons>button{
+        height: 42px;
+        width: 79px;
+        border-radius: 1rem;
+}
+.svgs{
+    display : flex;
+    gap : 15px;
+}
+.svgs>img{
+    height : 20px;
+
+}
