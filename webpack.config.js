@@ -9,9 +9,11 @@ module.exports = {
         clean : true,
     },
     mode : 'development',
+    devtool : "eval-source-map",
     devServer : {
         static : './dist',
         open: true,
+        watchFiles : ["./src/template.html"],
     },
     plugins : [
         new HtmlWebpackPlugin({
@@ -27,6 +29,13 @@ module.exports = {
           {
             test: /\.(png|svg|jpg|jpeg|gif)$/i,
             type: 'asset/resource',
+          },
+          {
+            test: /\.(woff2?|ttf|otf|eot)$/,
+            type: 'asset/resource',
+            generator: {
+              filename: 'fonts/[name][ext]',
+            },
           },
         ],
     },
