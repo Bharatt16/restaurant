@@ -7,12 +7,13 @@ export default function loadMenu() {
     const menuDiv = document.createElement('div');
     menuDiv.innerHTML = `
       <h2>Menu</h2>
-      <ul>
-        <li>Pizza</li>
-        <li>Burger</li>
-        <li>Pasta</li>
-      </ul>
+      <br>
+      <div class="menu-items">
+        
+      </div>
     `;
     content.appendChild(menuDiv);
   }
+
+
   

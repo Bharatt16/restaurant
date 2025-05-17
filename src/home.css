@@ -67,7 +67,7 @@ nav {
 button {
   height: 42px;
   width: 79px;
-  border-radius: 1rem;
+  border-radius: 0rem 1rem;
   background-color: rgba(220, 20, 60, 0.7);
   border: none;
   transition: transform 0.1s ease;
@@ -75,6 +75,7 @@ button {
 
 button:hover {
   background-color: rgba(220, 20, 60, 0.9);
+  border : 1px solid white;
   transform: scale(1.07);
 }
 
@@ -84,7 +85,7 @@ button:hover {
 
 .svgs {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 .svgs > img {
   height: 20px;

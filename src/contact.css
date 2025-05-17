@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+  }
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap : 20px;
+    position: relative;
+    top: 45px;
+}
+
+.left-side{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding : 1rem;
+    border-radius : 1rem;
+}
+.left-side>h1{
+    font-size : 3.5rem;
+    
+}
+.left-side-p{
+    font-size : 1.1rem;
+    
+}
+
+.right-side{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding : 1rem;
+    border-radius : 1rem;
+    
+}
+.right-side>h1{
+    font-size : 3.5rem;
+    margin-bottom: 0;
+    
+}
+.right-side-p{
+    font-size : 1.1rem;
+}
+
+#mapIcon , #callIcon , #mailIcon , #clockIcon{
+    height: 20px;
+    width: 20px;
+}
+
+.mapContainer , .callContainer , .mailContainer , .clockContainer{
+    display: flex;
+    gap: 10px;
+    margin : 10px 0px
+}
+
+.icons{
+    display : flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.form-group{
+    margin: 2rem 0;
+    display : flex;
+    flex-direction: column;
+    gap : 0.1rem;
+}
+#name , #email ,#message {
+    padding : 0.5rem;
+    border-radius : 0.5rem;
+    border : none;
+    height : 3rem;
+}
+#message{
+    height : 5rem;
+    color : black
+
+}
