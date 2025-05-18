@@ -51,7 +51,7 @@ export default function loadContact() {
          </div>
          <div class="form-group">
           <label for="message">Message</label><br>
-          <input type="text" id="message" placeholder="Message" required>
+          <input type="text" id="message" placeholder="Message" maxlength="75" required>
          </div>
           <button type="submit">Submit</button>
         </form>
