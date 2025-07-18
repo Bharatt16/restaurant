@@ -1,5 +1,7 @@
 # Restaurant Website
 
+live - https://bharatt16.github.io/restaurant/
+
 A simple restaurant website built with HTML, CSS, and JavaScript. This project provides a basic structure for a restaurant's online presence.
 
 ## Features
